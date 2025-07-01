@@ -25,7 +25,11 @@
                 <h2 class="text-2xl font-semibold text-gray-800 mb-6 flex items-center">
                     <i class="fas fa-plus-circle mr-2" style="color: rgb(2, 2, 59);"></i> Cadastrar Produto
                 </h2>
+
                 <form action="<?= base_url('produtos/salvar') ?>"id="productForm" class="space-y-4">
+
+                <form id="productForm" class="space-y-4">
+
                     <div>
                         <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nome do Produto</label>
                         <input type="text" id="name" name="name" 
@@ -207,9 +211,7 @@
                     </div>
                 </div>
                 <div class="flex justify-end space-x-2 mt-3">
-                    <button class="edit-btn px-3 py-1" style="color: rgb(2, 2, 59);" 
-                        onmouseover="this.style.color='#2563eb'" 
-                        onmouseout="this.style.color='rgb(2, 2, 59)'" 
+                    <button class="edit-btn px-3 py-1 text-indigo-600 hover:text-indigo-800" 
                         data-id="${product.id}" data-name="${product.name}" 
                         data-price="${product.price}" data-quantity="${product.quantity}">
                         <i class="fas fa-edit"></i> Editar

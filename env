@@ -14,7 +14,11 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
+<<<<<<< HEAD
 CI_ENVIRONMENT = development
+=======
+# CI_ENVIRONMENT = production
+>>>>>>> 0fbb1240742f9631663e59b26352332ca6e5d831
 
 #--------------------------------------------------------------------
 # APP
@@ -33,7 +37,11 @@ CI_ENVIRONMENT = development
 # database.default.hostname = localhost
 # database.default.database = ci4
 # database.default.username = root
+<<<<<<< HEAD
 # database.default.password = R@mosbd202$
+=======
+# database.default.password = root
+>>>>>>> 0fbb1240742f9631663e59b26352332ca6e5d831
 # database.default.DBDriver = MySQLi
 # database.default.DBPrefix =
 # database.default.port = 3306
