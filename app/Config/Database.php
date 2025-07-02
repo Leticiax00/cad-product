@@ -28,13 +28,8 @@ class Database extends Config
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'root',
-<<<<<<< HEAD
-        'password'     => 'R4mosbd@202$',
-        'database'     => 'bd_produtos',
-=======
-        'password'     => 'R4m0sbd@202$',
-        'database'     => '',
->>>>>>> 0fbb1240742f9631663e59b26352332ca6e5d831
+        'password'     => '',
+        'database'     => 'banco_produtos',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
