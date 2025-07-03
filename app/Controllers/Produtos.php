@@ -18,11 +18,7 @@ class Produtos extends BaseController
 
     public function salvar()
     {
-<<<<<<< HEAD
         // dd("chegou no salvar");
-=======
-        dd("chegou no salvar");
->>>>>>> 931b74f4e8f972057b0da6582d8447eadb916271
         
         $model = new ProdutoModel();
 
@@ -34,11 +30,7 @@ class Produtos extends BaseController
 
         $model->insert($dados);
 
-<<<<<<< HEAD
         return redirect()->to('/Produtos/sucesso');
-=======
-        return redirect()->to('/produtos/sucesso');
->>>>>>> 931b74f4e8f972057b0da6582d8447eadb916271
     }
 
     public function sucesso()
