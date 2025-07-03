@@ -1,0 +1,312 @@
+CRITICAL - 2025-07-03 12:57:16 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 17:43:44 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 31.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:16 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:16 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:17 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:17 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:17 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:17 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:17 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:17 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: POST, Route: Produtos/salvar]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Produtos.php(23): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->salvar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:18 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:19 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:19 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:19 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:19 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:19 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:19 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
+CRITICAL - 2025-07-03 18:22:20 --> ParseError: syntax error, unexpected token "protected", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Models\ProdutoModel.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Coldigniter-atual\\app\\Models\\ProdutoModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProdutoModel')
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProdutoModel')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-atual\\public\\index.php')
