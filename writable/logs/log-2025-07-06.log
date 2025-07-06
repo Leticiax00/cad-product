@@ -1,0 +1,151 @@
+CRITICAL - 2025-07-06 13:50:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: produtos/editar]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1031): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Produtos.php(48): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+CRITICAL - 2025-07-06 13:52:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: produtos/editar]
+in SYSTEMPATH\Model.php on line 456.
+ 1 SYSTEMPATH\BaseModel.php(1031): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(863): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\Produtos.php(48): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->editar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+CRITICAL - 2025-07-06 14:07:20 --> Exception: ID do produto não fornecido.
+[Method: POST, Route: produtos/editar]
+in APPPATH\Controllers\Produtos.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+CRITICAL - 2025-07-06 18:53:43 --> Exception: ID do produto não fornecido.
+[Method: POST, Route: produtos/editar]
+in APPPATH\Controllers\Produtos.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+CRITICAL - 2025-07-06 18:58:07 --> Exception: ID do produto não fornecido.
+[Method: POST, Route: produtos/editar]
+in APPPATH\Controllers\Produtos.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->editar()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+DEBUG - 2025-07-06 18:59:36 --> ID recebido no editar: 14
+DEBUG - 2025-07-06 18:59:55 --> ID recebido no editar: 15
+DEBUG - 2025-07-06 19:02:18 --> ID recebido no editar: 16
+DEBUG - 2025-07-06 19:05:41 --> ID recebido no editar: 17
+DEBUG - 2025-07-06 19:08:26 --> ID recebido no editar: 14
+DEBUG - 2025-07-06 19:09:19 --> ID recebido no editar: 15
+CRITICAL - 2025-07-06 19:09:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "produtos/index.php"
+[Method: GET, Route: produtos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produtos/index', [], true)
+ 3 APPPATH\Controllers\Produtos.php(16): view('produtos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+DEBUG - 2025-07-06 19:11:10 --> ID recebido no editar: 17
+CRITICAL - 2025-07-06 19:11:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "produtos/index.php"
+[Method: GET, Route: produtos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produtos/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produtos/index', [], true)
+ 3 APPPATH\Controllers\Produtos.php(16): view('produtos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+DEBUG - 2025-07-06 19:15:19 --> ID recebido no editar: 15
+CRITICAL - 2025-07-06 19:15:19 --> ErrorException: Undefined variable $produto
+[Method: POST, Route: produtos/editar]
+in APPPATH\Controllers\Produtos.php on line 51.
+ 1 APPPATH\Controllers\Produtos.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produto', 'C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Controllers\\Produtos.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->editar()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+DEBUG - 2025-07-06 19:20:22 --> ID recebido no editar: 17
+DEBUG - 2025-07-06 19:22:25 --> ID recebido no editar: 17
+DEBUG - 2025-07-06 19:22:37 --> ID recebido no editar: 17
+DEBUG - 2025-07-06 19:22:55 --> ID recebido no editar: 17
+DEBUG - 2025-07-06 19:23:22 --> ID recebido no editar: 15
+CRITICAL - 2025-07-06 19:44:57 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 52.
+ 1 APPPATH\Views\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Views\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Config\Routes.php(21): view('index')
+ 6 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+CRITICAL - 2025-07-06 19:45:16 --> ErrorException: Undefined variable $produtos
+[Method: GET, Route: /]
+in APPPATH\Views\index.php on line 52.
+ 1 APPPATH\Views\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produtos', 'C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Views\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Config\Routes.php(21): view('index')
+ 6 SYSTEMPATH\Router\RouteCollection.php(339): require('C:\\xampp\\htdocs\\Coldigniter-CP-master\\app\\Config\\Routes.php')
+ 7 SYSTEMPATH\CodeIgniter.php(821): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 8 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')
+CRITICAL - 2025-07-06 19:45:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "produto_excluir.php"
+[Method: POST, Route: produto_excluir/20]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produto_excluir.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produto_excluir', [], true)
+ 3 APPPATH\Controllers\Home.php(22): view('produto_excluir')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->excluirProduto('20')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\Coldigniter-CP-master\\public\\index.php')

@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
-$routes->post('/Produtos/salvar', 'Produtos::salvar'); // caminho dos controllers para as funções dos controllers 
+$routes->post('produtos/salvar', 'Produtos::salvar'); // caminho dos controllers para as funções dos controllers 
 
 // rota post para /produtos/salvar, direcionando para o metodo salvar do controlador - produtos.php (envio de formularios)
 
@@ -16,11 +16,16 @@ $routes->get('/Produtos/sucesso', 'Produtos::sucesso'); // puxa a função suces
 $routes->post('/produto_excluir/(:num)', 'Home::excluirProduto/$1'); //id do produto(:num)// método excluir produto, passando o valor para o argumento
 #'Home::excluirProduto/$1'); 
 
-#$routes->get('/produto/editar/', 'Home::editar/$1'));
+$routes->get('Produtos/editar/', 'Home::editar/$1');
+$routes->post('produtos/editar', 'Produtos::editar');
 
-$routes->get('/Produto/editar/(:num)', 'Home::editar/$1');
+
+$routes->get('Produto/editar/(:num)', 'Home::editar/$1');
 // chama o método editar para editar um produto pelo ID.
 
 $routes->get('/form', function () {
     return view('form'); // rota para retornar a view
 });
+
+
+

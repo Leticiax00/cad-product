@@ -1,0 +1,1 @@
+para retorna a uma view, configurar os controllers para criar a função que busque pelos valores e configure a view que ele tenha que retornar, após, chame nas rotas a função e o controller para chamar a view que precisa ser aberta
