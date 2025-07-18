@@ -72,8 +72,63 @@ Este projeto é uma aplicação web simples para **gerenciar produtos**, permiti
 
 ### 📌 Passos
 
-#### 1️⃣ Clone o Repositório
+1️⃣ Clone o Repositório
 
 ```bash
 git clone <URL_DO_SEU_REPOSITORIO>
 cd gestao-produtos
+2️⃣ Mova para o htdocs do XAMPP
+Copie a pasta clonada (gestao-produtos) para o diretório htdocs do XAMPP.
+Exemplo no Windows: C:\xampp\htdocs\gestao-produtos.
+
+3️⃣ Inicie os Serviços do XAMPP
+Abra o Painel de Controle do XAMPP e inicie os módulos Apache e MySQL.
+
+4️⃣ Configure o Banco de Dados
+Acesse o phpMyAdmin no navegador (geralmente: http://localhost/phpmyadmin).
+
+Crie um banco de dados chamado banco_produtos.
+
+No arquivo app/Config/Database.php verifique ou configure as credenciais do banco.
+
+Crie a tabela produtos manualmente no phpMyAdmin com o seguinte comando:
+
+sql
+Copiar
+Editar
+CREATE TABLE `produtos` (
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(255) NOT NULL,
+  `preco` DECIMAL(10,2) NOT NULL,
+  `quantidade` INT(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+💡 Dica: Se tiver migrações configuradas no CodeIgniter, pode rodá-las pela CLI.
+
+5️⃣ Instale as Dependências do Composer
+No terminal (ou Git Bash) na pasta do projeto:
+
+bash
+Copiar
+Editar
+composer install
+6️⃣ Ajuste Permissões (Linux/macOS)
+Se necessário, dê permissão de escrita para as pastas:
+
+bash
+Copiar
+Editar
+chmod -R 775 writable
+chmod -R 775 public/uploads # Caso tenha pasta de uploads
+7️⃣ Acesse a Aplicação
+Abra seu navegador e acesse:
+
+ruby
+Copiar
+Editar
+http://localhost/gestao-produtos/public
+(Substitua gestao-produtos pelo nome da pasta que colocou no htdocs.)
+
+## Pronto!
+Agora é só começar a cadastrar, editar e gerenciar seus produtos!
