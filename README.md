@@ -1,60 +1,79 @@
-# CodeIgniter 4 Framework
+# 📦 Gestão de Produtos
 
-## What is CodeIgniter?
+Este projeto é uma aplicação web simples para **gerenciar produtos**, permitindo o cadastro, visualização, edição e exclusão de itens.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+---
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## 🚀 Funcionalidades
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+### 1️⃣ Cadastro de Produtos
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- **Formulário de Cadastro:** Na página inicial, há um formulário intuitivo para adicionar novos produtos.
+- **Campos:**
+  - **Nome do Produto:** Nome descritivo do item.
+  - **Preço (R$):** Valor unitário do produto.
+  - **Quantidade:** Número de unidades disponíveis em estoque.
+- **Salvamento:** Ao preencher os dados e clicar em **"Salvar Produto"**, o item é adicionado à lista de produtos.
 
-## Important Change with index.php
+---
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### 2️⃣ Listagem de Produtos
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- **Visualização:** Todos os produtos cadastrados são exibidos em uma lista na página principal.
+- **Detalhes do Produto:** Para cada produto, são mostrados:
+  - Nome
+  - Preço (formatado em Reais)
+  - Quantidade em estoque
+- **Indicador de Estoque:** A quantidade em estoque possui um indicador visual:
+  - **Vermelho:** Estoque zerado.
+  - **Amarelo:** Estoque baixo (menos de 5 unidades).
+  - **Verde:** Estoque normal (5 ou mais unidades).
 
-**Please** read the user guide for a better explanation of how CI4 works!
+---
 
-## Repository Management
+### 3️⃣ Edição de Produtos
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+- **Botão "Editar":** Cada produto na lista possui um botão **Editar**.
+- **Modal de Edição:** Ao clicar em **Editar**, um modal é exibido com os dados atuais do produto.
+- **Atualização:** É possível modificar o nome, preço e quantidade do produto.
+- **Salvamento de Alterações:** Clique em **"Salvar Alterações"** dentro do modal para aplicar as mudanças.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+---
 
-## Contributing
+### 4️⃣ Exclusão de Produtos
 
-We welcome contributions from the community.
+- **Botão "Excluir":** Cada produto na lista possui um botão **Excluir**.
+- **Confirmação:** Ao clicar em **Excluir**, uma confirmação é solicitada para evitar exclusões acidentais.
+- **Remoção:** Após a confirmação, o produto é removido permanentemente da lista.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+---
 
-## Server Requirements
+## 🛠️ Tecnologias Utilizadas
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+- **Backend:** PHP com o framework **CodeIgniter 4**.
+- **Servidor Local:** **XAMPP** (Apache e MySQL).
+- **Banco de Dados:** MySQL.
+- **Frontend:**
+  - HTML
+  - CSS (**Tailwind CSS** para estilização)
+  - JavaScript (**jQuery** para interatividade e manipulação do DOM)
+  - Ícones: **Font Awesome**
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+---
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+## ⚙️ Instalação e Configuração
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+### 📌 Pré-requisitos
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+- **XAMPP:** Instale o XAMPP para rodar o Apache e o MySQL.
+- **Composer:** Tenha o Composer instalado globalmente.
+
+---
+
+### 📌 Passos
+
+#### 1️⃣ Clone o Repositório
+
+```bash
+git clone <URL_DO_SEU_REPOSITORIO>
+cd gestao-produtos
